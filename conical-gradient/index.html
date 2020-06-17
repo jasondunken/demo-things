@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Conic Gradient for Cyan on Fireox</title>
+    <link href="styles.css" rel="stylesheet" />
+    <script src="main.js"></script>
+  </head>
+  <body>
+    <div class="conic-gradient" id="meter-container"></div>
+
+    <div class="controls">
+      <label for="angle">angle</label>
+      <input
+        type="number"
+        min="0"
+        max="360"
+        step="1"
+        value="0"
+        name="angle"
+        id="angle"
+        onchange="updateMeter()"
+      />
+      <button type="button" onclick="updateMeter()">set</button>
+    </div>
+    <div class="controls">
+      <button type="button" onclick="setMeter(0)">0</button>
+      <button type="button" onclick="setMeter(90)">90</button>
+      <button type="button" onclick="setMeter(180)">180</button>
+      <button type="button" onclick="setMeter(270)">270</button>
+      <button type="button" onclick="setMeter(360)">360</button>
+      <button type="button" onclick="adjustMeter(-1)">-1</button>
+      <button type="button" onclick="adjustMeter(1)">+1</button>
+      <button type="button" onclick="adjustMeter(-10)">-10</button>
+      <button type="button" onclick="adjustMeter(10)">+10</button>
+    </div>
+    <div class="controls">
+      <button type="button" onclick="sweepMeter()">sweep</button>
+    </div>
+  </body>
+</html>
