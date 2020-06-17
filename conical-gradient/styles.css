@@ -8,8 +8,11 @@ html {
   text-align: center;
 }
 
+/* this is the only css for guage*/
 .conic-gradient {
+  /* margin is only for demo*/
   margin: 10px auto;
+  /* if width & height is changed here, meterSize in main.js also needs to be changed to the same value */
   width: 80px;
   height: 80px;
   border-radius: 50%;
