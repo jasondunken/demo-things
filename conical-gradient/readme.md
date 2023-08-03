@@ -1,1 +1,3 @@
+Before Firefox had a conical gradient, I had to make one...
+
 ![screen shot](demo.png)
